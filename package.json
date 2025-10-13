@@ -1,0 +1,20 @@
+{
+  "name": "@silon-oy/silon-eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Silon Oy",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "exports": {
+    ".": "./config/index.js",
+    "./cypress": "./config/cypress.js",
+    "./wordpress": "./config/wordpress.js"
+  },
+  "dependencies": {
+    "@wordpress/eslint-plugin": "^22.18.0",
+    "eslint": "^9.37.0",
+    "eslint-plugin-chai-friendly": "^1.1.4",
+    "eslint-plugin-cypress": "^3.6.0"
+  }
+}
